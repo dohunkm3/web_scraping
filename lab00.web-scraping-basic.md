@@ -216,10 +216,10 @@ cat
     + daum-words.txt
     ```code
     but
-satisfaction
-brought
-it
-back
+    satisfaction
+    brought
+    it
+    back
     ```
 
 - 각 영어 단어의 의미를 저장한다.
