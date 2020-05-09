@@ -58,7 +58,7 @@ __TODO__
 
 
 ```python
-# 현재 미국 달러 환률을 포함하고 있는 태그 내용을 추출한다.
+# 현재 미국 달러 환율을 포함하고 있는 태그 내용을 추출한다.
 __TODO__
 ```
 
@@ -99,7 +99,7 @@ __TODO__
 
 - - -
 
-- [다음 어학사전](http://dic.daum.net/index.do?dic=all)에 ‘curiosity’ , ‘killed’, ‘the’, ‘cat’ 4개 단어를 검색하였을 때 출력되는 화면에서 가장 상단에 나타다는 결과(즉, 단어의 뜻)를 출력한다.
+- [다음 어학사전](http://dic.daum.net/index.do?dic=all)에 ‘curiosity’, ‘killed’, ‘the’, ‘cat’ 4개 단어를 검색하였을 때 출력되는 화면에서 가장 상단에 나타다는 결과(즉, 단어의 뜻)를 출력한다.
 
 - 각 영어 단어의 의미를 출력한다.
 
@@ -144,7 +144,7 @@ cat
 
 - - -
 
-- [다음 어학사전](http://dic.daum.net/index.do?dic=all)에 ‘curiosity’ , ‘killed’, ‘the’, ‘cat’ 4개 단어를 검색하였을 때 출력되는 화면에서 가장 상단에 나타다는 결과(즉, 단어의 뜻)를 텍스트 파일에 저장한다.
+- [다음 어학사전](http://dic.daum.net/index.do?dic=all)에 ‘curiosity’, ‘killed’, ‘the’, ‘cat’ 4개 단어를 검색하였을 때 출력되는 화면에서 가장 상단에 나타다는 결과(즉, 단어의 뜻)를 텍스트 파일에 저장한다.
 
 - 각 영어 단어의 의미를 저장한다.
 
@@ -588,14 +588,14 @@ Blockstack	$44,403,459	$0.111682	$954,008
 
 - - -
 
-- 상위 **100**개의 코인 중 **24**시간 볼륨(Volume)이 UDS **1,000,000** 달러 이상이고 개당 가격이 **50** 달러 이상인 코인들의 데이터만 저장한다.
+- 상위 **100**개의 코인 중 **24**시간 볼륨(Volume)이 USD **1,000,000** 달러 이상이고 개당 가격이 **50** 달러 이상인 코인들의 데이터만 저장한다.
 
 - 한 줄에 코인 하나의 데이터를 저장하고, 각 행(줄)에서 화폐 이름(Name), 시가총액(Market Cap), 개당 가격(Price), **24**시간 볼륨(Volume)은 탭으로 구분한다.
 
 - - -
 
 **힌트**
-- 각 코인의 개당 가격과 볼륨에서 'replace() 메소드를 사용해 ‘$', ',' 등 기호들을 제거한다.
+- 각 코인의 개당 가격과 볼륨에서 'replace()' 메소드를 사용해 ‘$', ',' 등 기호들을 제거한다.
 - 가격과 볼륨을 **float** 자료형으로 형변환한다.
 - **if** 문을 사용하여 조건을 만족하는 코인의 데이터만 저장한다.
 
@@ -730,7 +730,7 @@ This movie is a must see for any music and movie lover Queen fan or no Queen fan
 
 - - -
 
-영화 [보헤미안 랩소디(Bohemian Rhapsody)](https://www.imdb.com/title/tt1727824/)의 리뷰 페이지에 들어가 첫 25개의 텍스트 파일에 저장해보자. 단, 'Warning: Spoilers'란 내용이 들어 있는 리뷰의 경우에는 리뷰 내용은 생략하고 'Warning: Spoilers'만 저장한다.
+영화 [보헤미안 랩소디(Bohemian Rhapsody)](https://www.imdb.com/title/tt1727824/)의 리뷰 페이지에 들어가 첫 25개의 리뷰를 텍스트 파일에 저장해보자. 단, 'Warning: Spoilers'란 내용이 들어 있는 리뷰의 경우에는 리뷰 내용은 생략하고 'Warning: Spoilers'만 저장한다.
 - https://www.imdb.com/title/tt1727824/reviews?ref_=tt_urv
 
 - - - 
